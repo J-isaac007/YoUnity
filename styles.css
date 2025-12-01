@@ -231,3 +231,41 @@ nav button:hover {
     background: #111;
     color: white;
 }
+
+/* Additional About styles: cards, stats, testimonial */
+.about-content .lead {
+    font-size: 20px;
+    margin-bottom: 18px;
+    color: #f1eaea;
+}
+
+.about-cards {
+    display: flex;
+    gap: 14px;
+    margin: 18px 0;
+}
+.card {
+    background: rgba(255,255,255,0.04);
+    padding: 14px;
+    border-radius: 10px;
+    flex: 1;
+    color: #fff;
+}
+.card h3 { margin-bottom: 8px; font-size: 18px; }
+
+.about-stats {
+    display: flex;
+    gap: 18px;
+    margin-top: 16px;
+}
+.stat strong { 
+    display: block; font-size: 22px; color: #ffcc00; }
+.stat span { font-size: 14px; color: #fff; }
+
+blockquote.testimonial {
+    margin-top: 18px;
+    font-style: italic;
+    color: #eee;
+    border-left: 4px solid rgba(255,204,0,0.6);
+    padding-left: 12px;
+}
