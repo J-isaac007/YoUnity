@@ -1,0 +1,164 @@
+HOME PAGE
+YoUnity : Uniting Youth, Igniting Change
+
+Hero Section:
+Our program helps young people build confidence, learn key leadership skills, and work together on meaningful projects.
+
+Navigation:
+- CAMPAIGN
+- ISSUES
+- BLOG
+- Language options: EN, FR, ES
+- TAKE ACTION button
+
+===============================================
+
+ABOUT SECTION
+About YoUnity
+
+YoUnity empowers youth to become leaders, innovators, and changemakers. We equip young people with practical skills and real opportunities to create meaningful change in their communities.
+
+Leadership Training
+Workshops in communication, project management, and conflict resolution applied through youth-led projects.
+
+Community Outreach
+Youth volunteers lead initiatives in education, environment, health, and emergency relief.
+
+Skills & Workshops
+Digital skills, entrepreneurship, and resilience sessions that prepare youth for school, work and civic life.
+
+Impact Statistics:
+- 1,200+ Youth trained
+- 85 Projects launched
+- 12 Partners
+
+Testimonial:
+"YoUnity gave me the confidence and tools to lead a community project." — Participant
+
+Call to Action:
+- Join a Program
+- Volunteer
+
+===============================================
+
+COMMUNITY SECTION
+YoUnity Community Hub
+Where Young Voices Shape Real Change
+
+Welcome to the YoUnity Community – a space built by the youth, for the youth. Here, ideas come alive, stories are shared, and young people unite to build a better, bolder future.
+
+Join Our Community Activities
+
+Youth-Led Projects
+From organizing school clean-up drives to launching mental health campaigns, our community encourages youth to take the lead in addressing issues that matter.
+
+Community Collaboration Events
+We partner with local schools, barangays, and organizations to create safe and supportive spaces for youth-led action.
+
+What we do:
+- Community pantry volunteering
+- Tree planting & river cleanups
+- School-based outreach programs
+- Peer tutoring and academic help sessions
+
+Youth Voices Forum
+A monthly virtual and physical gathering where young people share ideas, pitch advocacy projects, and discuss social issues affecting their generation.
+
+Topics we explore:
+- Bullying & youth protection
+- Climate justice
+- Education access
+- Digital ethics
+- Gender equality
+- Mental health awareness
+
+Call to Action:
+- Join Our Activities
+- Learn More
+
+===============================================
+
+NEWSLETTER SECTION
+Be Part of the Movement
+
+Join thousands of young changemakers who are making a difference in their communities
+
+Stay Connected
+Subscribe to our newsletter for program updates, success stories, and opportunities to get involved.
+
+Newsletter Form Fields:
+- First Name
+- Last Name
+- Email Address
+- Sign Up button
+
+Our Impact This Year:
+- 450+ New volunteers joined
+- 28 Communities reached
+- 15,000+ Hours of service
+
+===============================================
+
+FOOTER
+YoUnity
+
+About:
+Empowering youth to become leaders, innovators, and changemakers in their communities. Together, we're building a future where every young voice matters.
+
+Programs:
+- Leadership Training
+- Community Outreach
+- Skills Workshops
+- Youth Forum
+
+Get Involved:
+- Volunteer
+- Partner With Us
+- Donate
+- Events
+
+Get in Touch:
+Email: info@younity.org
+Phone: +63 123 456 7890
+Address: San Pascual, Calabarzon, Philippines
+
+Social Media:
+- Facebook
+- Twitter
+- Instagram
+
+Footer Bottom:
+© 2024 YoUnity. All rights reserved. | Privacy Policy | Terms of Service
+
+===============================================
+
+ADDITIONAL SITE FEATURES
+
+Navigation Links (throughout site):
+- Home (./home.html)
+- Campaign
+- Issues
+- Blog
+- Language switcher (EN, FR, ES)
+- Take Action button
+
+Button Styles:
+- Primary buttons: Red background (#b00002)
+- Secondary buttons: Orange outline (#e7822c)
+- Action buttons: Red with hover effects
+
+Color Scheme:
+- Primary Red: #b00002
+- Secondary Orange: #e7822c
+- White: #ffffff
+- Muted Gray: #444444
+- Dark Background: #2a1f1f (About section)
+- Footer Dark: #1a1a1a
+
+Images Used:
+- Logo: ./assets/images/logoPic(noBackground).png
+- Hero Background: ./assets/images/slide1.png
+- About Section: ./assets/images/slide2.png
+
+===============================================
+
