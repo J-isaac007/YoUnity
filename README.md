@@ -1,2 +1,2 @@
 # YoUnity
-A youth-centered civic education website promoting voter awareness, critical thinking, and informed participation in Philippine democracy.
+Yo-Unity presents a vibrant, youthful, and energetic look inspired by modern advocacy platforms that highlight youth empowerment. The design takes inspiration from clean, minimal layouts combined with bold shapes and dynamic elements, creating a lively and engaging atmosphere. The use of rounded sections, soft shadows, and smooth layout transitions makes the interface feel friendly, accessible, and approachable for young audiences
