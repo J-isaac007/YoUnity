@@ -140,3 +140,27 @@
     </section>
 </body>
 </html>
+
+<script>
+// Toggle `nav.light` when the page scrolls past the hero so links remain visible
+(function(){
+    const nav = document.querySelector('nav');
+    const hero = document.querySelector('.background-image');
+    if (!nav || !hero) return;
+
+    function update() {
+        const navH = nav.offsetHeight || 70;
+        const heroH = hero.offsetHeight || 0;
+        if (window.scrollY > Math.max(0, heroH - navH - 8)) {
+            nav.classList.add('light');
+        } else {
+            nav.classList.remove('light');
+        }
+    }
+
+    window.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    document.addEventListener('DOMContentLoaded', update);
+    update();
+})();
+</script>

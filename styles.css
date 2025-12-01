@@ -106,6 +106,33 @@ nav a:hover {
     text-decoration: underline;
 }
 
+/* When nav sits over light sections (community/about) use dark links */
+nav.light {
+    background: rgba(255,255,255,0.95);
+    backdrop-filter: blur(6px);
+}
+nav.light a,
+nav.light .navdiv a,
+nav.light .navbutton a {
+    color: #111;
+}
+nav.light nav button,
+nav.light .action_button button,
+nav.light .action_button {
+    border-color: #111;
+}
+nav.light .action_button button {
+    color: #111;
+}
+nav.light a:hover {
+    color: #ff9900;
+}
+
+/* smooth color transition */
+nav, nav a, .action_button, nav button {
+    transition: background-color 200ms ease, color 200ms ease, border-color 200ms ease;
+}
+
 nav button {
     background-color: transparent;
     color: white;
