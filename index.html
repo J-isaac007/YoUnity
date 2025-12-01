@@ -10,25 +10,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- navigation moved outside the hero so it can remain fixed/sticky across the page -->
+    <nav>
+        <div class="navdiv">
+            <div class="navtitle"><a href="./home.html"><img class="navlogo" src="./assets/images/logoPic(noBackground).png" alt="YoUnity Logo"></a></div>
+            <ul>
+                <li class="navbutton"><a href="">CAMPAIGN</a></li>
+                <li class="navbutton"><a href="">ISSUES</a></li>
+                <li class="navbutton"><a href="">BLOG</a></li>
+            </ul>
+        </div>
+        <div class="secondnavdiv">
+            <ul>
+                <li class="navbutton"><a href="">EN</a></li>
+                <li class="navbutton"><a href="">FR</a></li>
+                <li class="navbutton"><a href="">ES</a></li>
+                <li class="action_button"><button>TAKE ACTION</button></li>
+            </ul>
+        </div>
+    </nav>
+
     <div class="background-image">
-        <nav>
-            <div class="navdiv">
-                <div class="navtitle"><a href="./home.html"><img class="navlogo" src="./assets/images/logoPic(noBackground).png" alt="YoUnity Logo"></a></div>
-                <ul>
-                    <li class="navbutton"><a href="">CAMPAIGN</a></li>
-                    <li class="navbutton"><a href="">ISSUES</a></li>
-                    <li class="navbutton"><a href="">BLOG</a></li>
-                </ul>
-            </div>
-            <div class="secondnavdiv">
-                <ul>
-                    <li class="navbutton"><a href="">EN</a></li>
-                    <li class="navbutton"><a href="">FR</a></li>
-                    <li class="navbutton"><a href="">ES</a></li>
-                    <li class="action_button"><a href="">TAKE ACTION</a></li>
-                </ul>
-            </div>
-        </nav>
         <main>
             <section class="firstsection">
                 <div>
@@ -39,6 +41,35 @@
                 </div>
             </section>
         </main>
+        <section class="secondsection">
+            <div class="buttoncontainer">
+                <a href="" class="primary_button">Join Us</a>
+                <a href="" class="secondary_button">Learn More</a>
+            </div>
+        </section>
     </div>
+
+    <section class="about-section" id="about">
+        <div class="container">
+            <h2>About Us</h2>
+
+            <div class="about-grid">
+                <div class="about-image">
+                    <!-- Place your PNG at ./assets/images/about.png or update the src below -->
+                    <img src="./assets/images/slide2.png" alt="YoUnity participants">
+                </div>
+
+                <div class="about-content">
+                    <p>YoUnity is a youth-driven platform dedicated to empowering young people to become leaders, innovators, and changemakers. We believe that true progress begins when the youth are given the voice, skills, and opportunities to create meaningful change in their communities.</p>
+                    <p>We run workshops, mentorship programs, and local initiatives that connect young people with real-world projects and leadership experiences. Join our community to learn, lead, and make an impact.</p>
+
+                    <div class="about-cta">
+                        <a class="primary_button" href="#">Join a Program</a>
+                        <a class="secondary_button" href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
