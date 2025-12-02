@@ -609,10 +609,59 @@ footer {
     display: none !important;
 }
 
+@media (max-width: 1200px) {
+    .background-image {
+        height: auto;
+        min-height: 100vh;
+        padding-bottom: 60px;
+    }
+
+    .firstsection {
+        position: relative;
+    }
+
+    .firstsection h1 {
+        font-size: 48px;
+        margin: 140px 20px 20px;
+    }
+
+    .firstsection > div:first-child + div p {
+        font-size: 18px;
+    }
+
+    .columns {
+        margin-top: 30px;
+        gap: 30px;
+    }
+
+    .column p {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .circle {
+        width: 130px;
+        height: 130px;
+        margin-bottom: 20px;
+    }
+}
+
 @media (max-width: 1024px) {
+    .background-image {
+        min-height: auto;
+        padding-bottom: 80px;
+    }
+
     .firstsection h1 {
         font-size: 44px;
-        margin: 120px 20px 20px;
+        margin: 130px 20px 20px;
+    }
+
+    .columns {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        margin-top: 40px;
+        padding-bottom: 40px;
     }
 
     .about-grid {
@@ -639,6 +688,8 @@ footer {
         flex-direction: column;
         padding: 12px 16px;
         gap: 12px;
+        position: fixed;
+        top: 0;
     }
 
     nav .navdiv {
@@ -662,19 +713,21 @@ footer {
     }
 
     .background-image {
-        height: auto;
-        min-height: 100vh;
-        padding-bottom: 40px;
+        margin-top: -140px;
+        padding-top: 140px;
+        min-height: calc(100vh + 140px);
+        padding-bottom: 60px;
     }
 
     .firstsection {
         position: relative;
         padding: 20px 0;
+        margin-top: 0;
     }
 
     .firstsection h1 {
         font-size: 36px;
-        margin: 100px 16px 16px;
+        margin: 180px 16px 16px;
         line-height: 1.2;
     }
 
@@ -687,6 +740,7 @@ footer {
         grid-template-columns: 1fr;
         gap: 48px;
         margin-top: 32px;
+        padding-bottom: 40px;
     }
 
     .circle {
@@ -792,15 +846,27 @@ footer {
         font-size: 13px;
     }
 
+    .background-image {
+        margin-top: -150px;
+        padding-top: 150px;
+        min-height: calc(100vh + 150px);
+        padding-bottom: 50px;
+    }
+
     .firstsection h1 {
         font-size: 28px;
-        margin: 80px 12px 12px;
+        margin: 190px 12px 12px;
     }
 
     .firstsection > div:first-child + div p {
         font-size: 16px;
         margin: 8px 12px 24px;
         line-height: 1.5;
+    }
+
+    .columns {
+        gap: 40px;
+        margin-top: 24px;
     }
 
     .circle {
@@ -907,9 +973,15 @@ footer {
 }
 
 @media (max-width: 360px) {
+    .background-image {
+        margin-top: -160px;
+        padding-top: 160px;
+        min-height: calc(100vh + 160px);
+    }
+
     .firstsection h1 {
         font-size: 24px;
-        margin: 70px 8px 8px;
+        margin: 200px 8px 8px;
     }
 
     .firstsection > div:first-child + div p {
