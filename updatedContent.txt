@@ -1,70 +1,135 @@
-HOME PAGE
+# YoUnity Website Content Documentation
+
+## NAVIGATION (Site-wide)
+**Logo:** YoUnity Logo (clickable, links to home)
+
+**Main Navigation Links:**
+- HOME (./index.html)
+- ABOUT (./about.html)
+- COMMUNITY (./community.html)
+- GET INVOLVED (./get-involved.html)
+
+**Secondary Navigation:**
+- Language options: EN, FR, ES
+- TAKE ACTION button → redirects to ./get-involved.html
+
+---
+
+## HOME PAGE (index.html)
+
+### Hero Section
+**Main Heading:**
 YoUnity : Uniting Youth, Igniting Change
 
-Hero Section:
+**Subheading:**
 Our program helps young people build confidence, learn key leadership skills, and work together on meaningful projects.
 
-Navigation:
-- CAMPAIGN
-- ISSUES
-- BLOG
-- Language options: EN, FR, ES
-- TAKE ACTION button
+### Team Showcase
+**Developer 1 - Carryl**
+- Image: ./assets/images/Developer1.jpg
+- Quote: "Every message matters when building movements that empower youth voices."
+- Role: Content Designer
 
-===============================================
+**Developer 2 - John Isaac**
+- Image: ./assets/images/Developer2.jpg
+- Quote: "Turning vision into reality, bringing youth leaders and changemakers together."
+- Role: FrontEnd Developer
 
-ABOUT SECTION
-About YoUnity
+**Developer 3 - Julia**
+- Image: ./assets/images/Developer3.jpg
+- Quote: "Designing spaces where youth inspiration meets purposeful action and engagement."
+- Role: Layout Manager
 
+### Why YoUnity Matters Section
+**Heading:** Why YoUnity Matters
+
+**Lead Paragraph:**
+Young people are the drivers of change, but they often lack platforms to develop their potential. YoUnity bridges that gap by creating spaces where youth can learn, lead, and make lasting impact in their communities.
+
+**Three Cards:**
+
+1. **Empowerment Through Action**
+   - We believe in learning by doing. Our programs put youth in leadership roles from day one.
+
+2. **Building Tomorrow's Leaders**
+   - Every young person has the potential to create change. We provide the tools and support to make it happen.
+
+3. **Community-Driven Impact**
+   - Real change happens at the grassroots level. We connect youth with their communities to address local challenges.
+
+**Call to Action Buttons:**
+- Learn About Our Programs (./about.html)
+- Join the Community (./community.html)
+
+---
+
+## ABOUT PAGE (about.html)
+
+### About Section
+**Heading:** About YoUnity
+
+**Lead Paragraph:**
 YoUnity empowers youth to become leaders, innovators, and changemakers. We equip young people with practical skills and real opportunities to create meaningful change in their communities.
 
-Leadership Training
+### Three Program Cards
+
+**Card 1 - Leadership Training**
 Workshops in communication, project management, and conflict resolution applied through youth-led projects.
 
-Community Outreach
+**Card 2 - Community Outreach**
 Youth volunteers lead initiatives in education, environment, health, and emergency relief.
 
-Skills & Workshops
+**Card 3 - Skills & Workshops**
 Digital skills, entrepreneurship, and resilience sessions that prepare youth for school, work and civic life.
 
-Impact Statistics:
-- 1,200+ Youth trained
-- 85 Projects launched
-- 12 Partners
+### Impact Statistics
+- **1,200+** Youth trained
+- **85** Projects launched
+- **12** Partners
 
-Testimonial:
+### Call to Action Buttons
+- Join a Program (./get-involved.html)
+- Volunteer (./get-involved.html)
+
+### Testimonial
 "YoUnity gave me the confidence and tools to lead a community project." — Participant
 
-Call to Action:
-- Join a Program
-- Volunteer
+### Featured Image
+- Image: ./assets/images/slide2.png
+- Alt text: YoUnity participants
 
-===============================================
+---
 
-COMMUNITY SECTION
-YoUnity Community Hub
-Where Young Voices Shape Real Change
+## COMMUNITY PAGE (community.html)
 
-Welcome to the YoUnity Community – a space built by the youth, for the youth. Here, ideas come alive, stories are shared, and young people unite to build a better, bolder future.
+### Header
+**Main Heading:** YoUnity Community Hub
 
-Join Our Community Activities
+**Subheading:** Where Young Voices Shape Real Change
 
-Youth-Led Projects
+**Intro Paragraph:**
+Welcome to the YoUnity Community — a space built by the youth, for the youth. Here, ideas come alive, stories are shared, and young people unite to build a better, bolder future.
+
+### Join Our Community Activities
+
+**Section 1 - Youth-Led Projects**
 From organizing school clean-up drives to launching mental health campaigns, our community encourages youth to take the lead in addressing issues that matter.
 
-Community Collaboration Events
+**Section 2 - Community Collaboration Events**
 We partner with local schools, barangays, and organizations to create safe and supportive spaces for youth-led action.
 
-What we do:
+**What we do:**
 - Community pantry volunteering
 - Tree planting & river cleanups
 - School-based outreach programs
 - Peer tutoring and academic help sessions
 
-Youth Voices Forum
+### Youth Voices Forum
+
+**Description:**
 A monthly virtual and physical gathering where young people share ideas, pitch advocacy projects, and discuss social issues affecting their generation.
 
-Topics we explore:
+**Topics we explore:**
 - Bullying & youth protection
 - Climate justice
 - Education access
@@ -72,93 +137,234 @@ Topics we explore:
 - Gender equality
 - Mental health awareness
 
-Call to Action:
-- Join Our Activities
-- Learn More
+### Call to Action Buttons
+- Join Our Activities (./get-involved.html)
+- Learn More (./about.html)
 
-===============================================
+---
 
-NEWSLETTER SECTION
-Be Part of the Movement
+## GET INVOLVED PAGE (get-involved.html)
 
+### Newsletter Section
+**Main Heading:** Be Part of the Movement
+
+**Subheading:**
 Join thousands of young changemakers who are making a difference in their communities
 
-Stay Connected
+**Form Section - Stay Connected**
 Subscribe to our newsletter for program updates, success stories, and opportunities to get involved.
 
-Newsletter Form Fields:
-- First Name
-- Last Name
-- Email Address
+**Form Fields:**
+- First Name (required)
+- Last Name (required)
+- Email Address (required)
 - Sign Up button
 
-Our Impact This Year:
-- 450+ New volunteers joined
-- 28 Communities reached
-- 15,000+ Hours of service
+**Impact Stats - Our Impact This Year:**
+- **450+** New volunteers joined
+- **28** Communities reached
+- **15,000+** Hours of service
 
-===============================================
+### Ways to Get Involved Section
+**Heading:** Ways to Get Involved
 
-FOOTER
-YoUnity
+**Four Involvement Cards:**
 
-About:
+**Card 1 - Become a Volunteer**
+Join our team of passionate youth volunteers making real change in communities across the Philippines. Whether you have a few hours a week or want to commit to a major project, there's a place for you.
+
+Activities:
+- Community outreach programs
+- Event planning and coordination
+- Peer mentoring and tutoring
+- Environmental initiatives
+
+Button: Apply to Volunteer
+
+**Card 2 - Partner With Us**
+We collaborate with schools, local governments, NGOs, and businesses to amplify youth-led initiatives. Partner with YoUnity to support the next generation of leaders.
+
+Partnership Types:
+- School partnerships
+- Corporate social responsibility programs
+- Community organization collaborations
+- Funding and resource support
+
+Button: Become a Partner
+
+**Card 3 - Join a Program**
+Develop your leadership skills, learn new competencies, and work on meaningful projects that create real impact in your community.
+
+Programs Include:
+- Leadership training workshops
+- Skills development sessions
+- Youth forum participation
+- Project-based learning
+
+Button: Explore Programs
+
+**Card 4 - Support Our Mission**
+Your donation helps us provide training, resources, and opportunities for young people to become changemakers in their communities.
+
+Your Support Funds:
+- Fund leadership workshops
+- Support youth-led projects
+- Provide learning materials
+- Expand our reach to more communities
+
+Button: Make a Donation
+
+---
+
+## FOOTER (Site-wide)
+
+### About Column
+**YoUnity**
+
 Empowering youth to become leaders, innovators, and changemakers in their communities. Together, we're building a future where every young voice matters.
 
-Programs:
-- Leadership Training
-- Community Outreach
-- Skills Workshops
-- Youth Forum
-
-Get Involved:
-- Volunteer
-- Partner With Us
-- Donate
-- Events
-
-Get in Touch:
-Email: info@younity.org
-Phone: +63 123 456 7890
-Address: Batangas, Calabarzon, Philippines
-
-Social Media:
+**Social Media Links:**
 - Facebook
 - Twitter
 - Instagram
 
-Footer Bottom:
+### Programs Column
+- Leadership Training (./about.html)
+- Community Outreach (./about.html)
+- Skills Workshops (./about.html)
+- Youth Forum (./community.html)
+
+### Get Involved Column
+- Volunteer (./get-involved.html)
+- Partner With Us (./get-involved.html)
+- Donate (./get-involved.html)
+- Events (./community.html)
+
+### Get in Touch Column
+**Email:** info@younity.org
+**Phone:** +63 123 456 7890
+**Address:** Batangas, Calabarzon, Philippines
+
+### Footer Bottom
 © 2025 YoUnity. All rights reserved. | Privacy Policy | Terms of Service
 
-===============================================
+---
 
-ADDITIONAL SITE FEATURES
+## DESIGN SYSTEM
 
-Navigation Links (throughout site):
-- Home (./home.html)
-- Campaign
-- Issues
-- Blog
-- Language switcher (EN, FR, ES)
-- Take Action button
+### Color Palette
+- **Primary Red:** #b00002
+- **Secondary Orange:** #e7822c
+- **White:** #ffffff
+- **Muted Gray:** #444444
+- **Dark Background (About):** #2a1f1f
+- **Light Background (Sections):** #f9f9f9
+- **Footer Dark:** #1a1a1a
 
-Button Styles:
-- Primary buttons: Red background (#b00002)
-- Secondary buttons: Orange outline (#e7822c)
-- Action buttons: Red with hover effects
+### Button Styles
+**Primary Button:**
+- Background: #b00002 (red)
+- Text: white
+- Border: 2px solid #b00002
+- Hover: Lift effect with shadow
 
-Color Scheme:
-- Primary Red: #b00002
-- Secondary Orange: #e7822c
-- White: #ffffff
-- Muted Gray: #444444
-- Dark Background: #2a1f1f (About section)
-- Footer Dark: #1a1a1a
+**Secondary Button:**
+- Background: transparent
+- Text: #e7822c (orange)
+- Border: 2px solid #e7822c
+- Hover: Fills with orange background, white text
 
-Images Used:
-- Logo: ./assets/images/logoPic(noBackground).png
-- Hero Background: ./assets/images/slide1.png
-- About Section: ./assets/images/slide2.png
+**Action Button (Navigation):**
+- Same as Primary Button
+- Fixed in navigation bar
 
-===============================================
+### Typography
+**Font Family:** "Julius Sans One", sans-serif
 
+### Images & Assets
+**Logo:**
+- Path: ./assets/images/logoPic(noBackground).png
+- Usage: Navigation bar (all pages)
+
+**Hero Background:**
+- Path: ./assets/images/slide1.png
+- Usage: Home page hero section
+
+**About Image:**
+- Path: ./assets/images/slide2.png
+- Usage: About page featured image
+
+**Team Photos:**
+- Developer1.jpg - Carryl (Content Designer)
+- Developer2.jpg - John Isaac (FrontEnd Developer)
+- Developer3.jpg - Julia (Layout Manager)
+
+### Responsive Breakpoints
+**Desktop Only Responsive (1024px and above):**
+- 1024px - 1199px
+- 1200px - 1440px
+- 1441px - 1919px
+- 1920px and above
+
+**Tablet & Mobile:**
+- Static layout (below 1024px)
+
+---
+
+## PAGE STRUCTURE
+
+### index.html
+- Navigation
+- Hero section with background image
+- Team showcase (3 developers)
+- Why YoUnity Matters section
+- Footer
+
+### about.html
+- Navigation
+- About section (dark background)
+- Program cards
+- Statistics
+- Testimonial
+- Featured image
+- Footer
+
+### community.html
+- Navigation
+- Community Hub header
+- Youth-Led Projects
+- Community Activities list
+- Youth Voices Forum
+- Topics list
+- Call to action
+- Footer
+
+### get-involved.html
+- Navigation
+- Newsletter signup section
+- Impact statistics
+- Ways to Get Involved (4 cards)
+- Footer
+
+---
+
+## TECHNICAL NOTES
+
+### Navigation Behavior
+- Fixed position at top
+- Semi-transparent white background with blur
+- Responsive across all desktop sizes
+- Z-index: 1000
+
+### Form Handling
+Newsletter form on get-involved.html uses POST method but action="#" (needs backend integration)
+
+### Links
+All internal navigation uses relative paths (./filename.html)
+External links and form actions are placeholders (#)
+
+### Accessibility
+- Alt text on images
+- ARIA labels on social media links
+- Semantic HTML structure
+- Focus states on interactive elements
