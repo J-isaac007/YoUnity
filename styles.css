@@ -17,7 +17,7 @@ html, body {
 
 body {
     padding-top: 0;
-    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    font-family: "julius sans one", sans-serif;
 }
 
 .background-image {
@@ -272,7 +272,7 @@ blockquote.testimonial {
 
 .community-section {
     background: #fff;
-    color: #222;
+    color: black;
     padding: 64px 20px;
     border-top: 4px solid var(--primary);
 }
@@ -281,12 +281,14 @@ blockquote.testimonial {
     text-align: center;
     color: var(--primary);
     margin-bottom: 8px;
+    font-weight: 1000;
 }
 
 .community-section .lead {
     text-align: center;
     color: var(--muted);
     margin-bottom: 18px;
+    font-weight: 900;
 }
 
 .community-section h3 {
