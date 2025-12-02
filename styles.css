@@ -608,3 +608,343 @@ footer {
 .hidden {
     display: none !important;
 }
+
+@media (max-width: 1024px) {
+    .firstsection h1 {
+        font-size: 44px;
+        margin: 120px 20px 20px;
+    }
+
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .about-image {
+        order: -1;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr 1fr;
+        gap: 32px;
+    }
+
+    .footer-about {
+        grid-column: 1 / -1;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        padding: 12px 16px;
+        gap: 12px;
+    }
+
+    nav .navdiv {
+        flex-direction: column;
+        gap: 12px;
+        width: 100%;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .secondnavdiv {
+        width: 100%;
+    }
+
+    .secondnavdiv ul {
+        justify-content: center;
+    }
+
+    .background-image {
+        height: auto;
+        min-height: 100vh;
+        padding-bottom: 40px;
+    }
+
+    .firstsection {
+        position: relative;
+        padding: 20px 0;
+    }
+
+    .firstsection h1 {
+        font-size: 36px;
+        margin: 100px 16px 16px;
+        line-height: 1.2;
+    }
+
+    .firstsection > div:first-child + div p {
+        font-size: 18px;
+        margin: 8px 16px 32px;
+    }
+
+    .columns {
+        grid-template-columns: 1fr;
+        gap: 48px;
+        margin-top: 32px;
+    }
+
+    .circle {
+        width: 160px;
+        height: 160px;
+    }
+
+    .column h2 {
+        font-size: 26px;
+    }
+
+    .column p {
+        font-size: 15px;
+        max-width: 100%;
+        padding: 0 16px;
+    }
+
+    .about-section {
+        padding: 48px 16px;
+    }
+
+    .about-section h2 {
+        font-size: 28px;
+    }
+
+    .about-cards {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .about-stats {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .stat {
+        flex: 1 1 140px;
+        text-align: center;
+    }
+
+    .about-cta {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .primary_button,
+    .secondary_button {
+        width: 100%;
+        max-width: 300px;
+        text-align: center;
+    }
+
+    .community-section {
+        padding: 48px 16px;
+    }
+
+    .community-section h2 {
+        font-size: 28px;
+    }
+
+    .community-cta {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .community-cta .primary_button,
+    .community-cta .secondary_button {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .newsletter-section {
+        padding: 48px 16px;
+    }
+
+    .newsletter-section h2 {
+        font-size: 28px;
+    }
+
+    .newsletter-content {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navlogo {
+        height: 40px;
+    }
+
+    nav ul {
+        font-size: 14px;
+    }
+
+    .action_button button {
+        padding: 6px 12px;
+        font-size: 13px;
+    }
+
+    .firstsection h1 {
+        font-size: 28px;
+        margin: 80px 12px 12px;
+    }
+
+    .firstsection > div:first-child + div p {
+        font-size: 16px;
+        margin: 8px 12px 24px;
+        line-height: 1.5;
+    }
+
+    .circle {
+        width: 140px;
+        height: 140px;
+    }
+
+    .column h2 {
+        font-size: 24px;
+    }
+
+    .column p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .column h3 {
+        font-size: 14px;
+    }
+
+    .about-section h2,
+    .community-section h2,
+    .newsletter-section h2 {
+        font-size: 24px;
+    }
+
+    .about-section .lead,
+    .community-section .lead {
+        font-size: 16px;
+    }
+
+    .card {
+        padding: 12px;
+    }
+
+    .card h3 {
+        font-size: 16px;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+
+    .about-stats {
+        gap: 16px;
+    }
+
+    .stat strong {
+        font-size: 18px;
+    }
+
+    .stat span {
+        font-size: 12px;
+    }
+
+    blockquote.testimonial {
+        font-size: 14px;
+    }
+
+    .newsletter-section p {
+        font-size: 16px;
+    }
+
+    .signup-form input {
+        padding: 10px 14px;
+        font-size: 14px;
+    }
+
+    .impact-stats h3,
+    .newsletter-form-wrapper h3 {
+        font-size: 20px;
+    }
+
+    .stat-item {
+        padding: 16px;
+    }
+
+    .stat-item strong {
+        font-size: 28px;
+    }
+
+    .stat-item span {
+        font-size: 14px;
+    }
+
+    footer {
+        padding: 32px 16px 20px;
+    }
+
+    .footer-about h3,
+    .footer-column h4 {
+        font-size: 18px;
+    }
+
+    .footer-about p,
+    .footer-column a,
+    .footer-contact p {
+        font-size: 14px;
+    }
+
+    .footer-bottom {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 360px) {
+    .firstsection h1 {
+        font-size: 24px;
+        margin: 70px 8px 8px;
+    }
+
+    .firstsection > div:first-child + div p {
+        font-size: 14px;
+        margin: 8px 8px 20px;
+    }
+
+    .circle {
+        width: 120px;
+        height: 120px;
+    }
+
+    .column h2 {
+        font-size: 20px;
+    }
+
+    .column p {
+        font-size: 13px;
+    }
+
+    .columns {
+        gap: 36px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1400px;
+    }
+
+    .firstsection h1 {
+        font-size: 64px;
+    }
+
+    .firstsection > div:first-child + div p {
+        font-size: 22px;
+    }
+}
