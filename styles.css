@@ -1020,3 +1020,17 @@ footer {
         font-size: 22px;
     }
 }
+
+@media (min-width: 1920px) {
+    .container {
+        max-width: 1600px;
+    }
+
+    .firstsection h1 {
+        font-size: 72px;
+    }
+
+    .firstsection > div:first-child + div p {
+        font-size: 24px;
+    }
+}
