@@ -1,135 +1,233 @@
 # YoUnity Website Content Documentation
 
 ## NAVIGATION (Site-wide)
-**Logo:** YoUnity Logo (clickable, links to home)
 
-**Main Navigation Links:**
-- HOME (./index.html)
-- ABOUT (./about.html)
-- COMMUNITY (./community.html)
-- GET INVOLVED (./get-involved.html)
+Logo: YoUnity Logo (clickable, links to home)
 
-**Secondary Navigation:**
-- Language options: EN, FR, ES
-- TAKE ACTION button → redirects to ./get-involved.html
+Main Navigation Links:
+- HOME (index.html / ../index.html from pages/)
+- ABOUT (pages/about.html / about.html within pages/)
+- COMMUNITY (pages/community.html / community.html within pages/)
+- GET INVOLVED (pages/get-involved.html / get-involved.html within pages/)
+
+Secondary Navigation:
+- Language options: EN, FR, ES (currently placeholder links)
+- TAKE ACTION button → redirects to get-involved.html
+
+Navigation Technical Details:
+- Fixed position at top of page
+- Semi-transparent white background: rgba(255, 255, 255, 0.94)
+- Backdrop blur effect
+- Box shadow for depth
+- Z-index: 1000
+- Responsive padding and spacing
 
 ---
 
 ## HOME PAGE (index.html)
 
-### Hero Section
-**Main Heading:**
+Hero Section
+
+Main Heading:
 YoUnity : Uniting Youth, Igniting Change
 
-**Subheading:**
+Subheading:
 Our program helps young people build confidence, learn key leadership skills, and work together on meaningful projects.
 
-### Team Showcase
-**Developer 1 - Carryl**
+Background:
+- Background image: ./assets/images/slide1.png
+- Gradient overlay: linear-gradient(180deg, rgba(176, 0, 2, 0.22), rgba(0, 0, 0, 0.45))
+- Full viewport height minimum
+- Cover background sizing
+
+Team Showcase
+
+Developer 1 - Carryl
 - Image: ./assets/images/Developer1.jpg
 - Quote: "Every message matters when building movements that empower youth voices."
 - Role: Content Designer
+- Display: Circular image with white border
 
-**Developer 2 - John Isaac**
+Developer 2 - John Isaac
 - Image: ./assets/images/Developer2.jpg
 - Quote: "Turning vision into reality, bringing youth leaders and changemakers together."
 - Role: FrontEnd Developer
+- Display: Circular image with white border
 
-**Developer 3 - Julia**
+Developer 3 - Julia
 - Image: ./assets/images/Developer3.jpg
 - Quote: "Designing spaces where youth inspiration meets purposeful action and engagement."
 - Role: Layout Manager
+- Display: Circular image with white border
 
-### Why YoUnity Matters Section
-**Heading:** Why YoUnity Matters
+Layout:
+- Grid display with auto-fit columns
+- Minimum column width: 280px
+- 40px gap between columns
+- Centered alignment
 
-**Lead Paragraph:**
+Why YoUnity Matters Section
+
+Heading: Why YoUnity Matters
+
+Lead Paragraph:
 Young people are the drivers of change, but they often lack platforms to develop their potential. YoUnity bridges that gap by creating spaces where youth can learn, lead, and make lasting impact in their communities.
 
-**Three Cards:**
+Three Feature Cards:
 
-1. **Empowerment Through Action**
-   - We believe in learning by doing. Our programs put youth in leadership roles from day one.
+1. Empowerment Through Action
+   We believe in learning by doing. Our programs put youth in leadership roles from day one.
 
-2. **Building Tomorrow's Leaders**
-   - Every young person has the potential to create change. We provide the tools and support to make it happen.
+2. Building Tomorrow's Leaders
+   Every young person has the potential to create change. We provide the tools and support to make it happen.
 
-3. **Community-Driven Impact**
-   - Real change happens at the grassroots level. We connect youth with their communities to address local challenges.
+3. Community-Driven Impact
+   Real change happens at the grassroots level. We connect youth with their communities to address local challenges.
 
-**Call to Action Buttons:**
-- Learn About Our Programs (./about.html)
-- Join the Community (./community.html)
+Card Styling:
+- White background
+- 24px padding
+- Border-radius: 10px
+- Box shadow for depth
+- Left border: 4px solid secondary orange color
+
+Call to Action Buttons:
+- Learn About Our Programs (pages/about.html)
+- Join the Community (pages/community.html)
+
+Section Background:
+- Light gray: #f9f9f9
+- Top border: 4px solid primary red
+- 64px vertical padding
 
 ---
 
 ## ABOUT PAGE (about.html)
 
-### About Section
-**Heading:** About YoUnity
+About Section
 
-**Lead Paragraph:**
+Heading: About YoUnity
+
+Lead Paragraph:
 YoUnity empowers youth to become leaders, innovators, and changemakers. We equip young people with practical skills and real opportunities to create meaningful change in their communities.
 
-### Three Program Cards
+Section Background:
+- Dark brown: #2a1f1f
+- White text
+- Top border: 6px solid primary red
+- 64px vertical padding
 
-**Card 1 - Leadership Training**
+Three Program Cards
+
+Card 1 - Leadership Training
 Workshops in communication, project management, and conflict resolution applied through youth-led projects.
 
-**Card 2 - Community Outreach**
+Card 2 - Community Outreach
 Youth volunteers lead initiatives in education, environment, health, and emergency relief.
 
-**Card 3 - Skills & Workshops**
+Card 3 - Skills & Workshops
 Digital skills, entrepreneurship, and resilience sessions that prepare youth for school, work and civic life.
 
-### Impact Statistics
-- **1,200+** Youth trained
-- **85** Projects launched
-- **12** Partners
+Card Styling:
+- Semi-transparent white background: rgba(255, 255, 255, 0.04)
+- 14px padding
+- Border-radius: 10px
+- Orange headers (secondary color)
+- Flex layout with equal distribution
 
-### Call to Action Buttons
-- Join a Program (./get-involved.html)
-- Volunteer (./get-involved.html)
+Impact Statistics
+- 1,200+ Youth trained
+- 85 Projects launched
+- 12 Partners
 
-### Testimonial
-"YoUnity gave me the confidence and tools to lead a community project." — Participant
+Stats Display:
+- Horizontal flex layout
+- 18px gap
+- Large red numbers: 20px
+- Small white labels: 13px
 
-### Featured Image
-- Image: ./assets/images/slide2.png
+Call to Action Buttons
+- Join a Program (get-involved.html)
+- Volunteer (get-involved.html)
+- 12px gap between buttons
+- 18px top margin
+
+Testimonial
+
+Quote: "YoUnity gave me the confidence and tools to lead a community project." — Participant
+
+Styling:
+- Italic font style
+- Left border: 4px solid secondary orange
+- 12px left padding
+- Light gray text: #eee
+
+Featured Image
+- Image: ../assets/images/slide2.png
 - Alt text: YoUnity participants
+- Border-radius: 12px
+- Box shadow for depth
+- 100% width, object-fit: cover
+
+Layout:
+- Two-column grid (1fr 1fr)
+- 32px gap
+- Centered vertical alignment
+- Content on left, image on right
 
 ---
 
 ## COMMUNITY PAGE (community.html)
 
-### Header
-**Main Heading:** YoUnity Community Hub
+Header
 
-**Subheading:** Where Young Voices Shape Real Change
+Main Heading: YoUnity Community Hub
 
-**Intro Paragraph:**
+Tagline: Where Young Voices Shape Real Change
+
+Intro Paragraph:
 Welcome to the YoUnity Community — a space built by the youth, for the youth. Here, ideas come alive, stories are shared, and young people unite to build a better, bolder future.
 
-### Join Our Community Activities
+Section Background:
+- White background
+- Black text
+- Top border: 4px solid primary red
+- 64px vertical padding
 
-**Section 1 - Youth-Led Projects**
+Join Our Community Activities
+
+Section Heading: Join Our Community Activities
+
+Subsection 1 - Youth-Led Projects
 From organizing school clean-up drives to launching mental health campaigns, our community encourages youth to take the lead in addressing issues that matter.
 
-**Section 2 - Community Collaboration Events**
+Subsection 2 - Community Collaboration Events
 We partner with local schools, barangays, and organizations to create safe and supportive spaces for youth-led action.
 
-**What we do:**
+What we do:
 - Community pantry volunteering
 - Tree planting & river cleanups
 - School-based outreach programs
 - Peer tutoring and academic help sessions
 
-### Youth Voices Forum
+List Styling:
+- Disc bullet points
+- 24px left padding
+- 6px vertical margin per item
+- Dark gray text: #333
 
-**Description:**
+Youth Voices Forum
+
+Forum Description (Highlighted):
 A monthly virtual and physical gathering where young people share ideas, pitch advocacy projects, and discuss social issues affecting their generation.
 
-**Topics we explore:**
+Forum Box Styling:
+- Light red background: rgba(176, 0, 2, 0.05)
+- 16px padding
+- Border-radius: 8px
+- Left border: 4px solid primary red
+
+Topics we explore:
 - Bullying & youth protection
 - Climate justice
 - Education access
@@ -137,40 +235,98 @@ A monthly virtual and physical gathering where young people share ideas, pitch a
 - Gender equality
 - Mental health awareness
 
-### Call to Action Buttons
-- Join Our Activities (./get-involved.html)
-- Learn More (./about.html)
+Section Headings:
+- H3: Primary red color, 24px top margin
+- H4: Secondary orange color, 16px top margin
+
+Call to Action Buttons
+- Join Our Activities (get-involved.html)
+- Learn More (about.html)
+- Centered alignment
+- 32px top margin
+- 12px gap between buttons
 
 ---
 
 ## GET INVOLVED PAGE (get-involved.html)
 
-### Newsletter Section
-**Main Heading:** Be Part of the Movement
+Newsletter Section
 
-**Subheading:**
+Main Heading: Be Part of the Movement
+
+Subheading:
 Join thousands of young changemakers who are making a difference in their communities
 
-**Form Section - Stay Connected**
+Section Background:
+- Primary red background: #b00002
+- White text
+- 64px vertical padding (plus 134px top padding for navigation clearance)
+- Centered text alignment
+
+Two-Column Layout:
+1. Newsletter Form (left)
+2. Impact Statistics (right)
+
+Form Section - Stay Connected
+
+Description:
 Subscribe to our newsletter for program updates, success stories, and opportunities to get involved.
 
-**Form Fields:**
-- First Name (required)
-- Last Name (required)
-- Email Address (required)
-- Sign Up button
+Form Fields:
+- First Name (text input, required, placeholder: "Enter your first name")
+- Last Name (text input, required, placeholder: "Enter your last name")
+- Email Address (email input, required, placeholder: "Enter your email address")
+- Sign Up button (primary button, secondary orange color)
 
-**Impact Stats - Our Impact This Year:**
-- **450+** New volunteers joined
-- **28** Communities reached
-- **15,000+** Hours of service
+Form Styling:
+- Vertical flex layout
+- 12px gap between inputs
+- White input backgrounds
+- 12px vertical, 16px horizontal padding
+- Border-radius: 6px
+- Focus state with orange outline
 
-### Ways to Get Involved Section
-**Heading:** Ways to Get Involved
+Impact Stats - Our Impact This Year:
+- 450+ New volunteers joined
+- 28 Communities reached
+- 15,000+ Hours of service
 
-**Four Involvement Cards:**
+Stats Display:
+- Vertical flex layout
+- 24px gap between items
+- Semi-transparent white boxes: rgba(255, 255, 255, 0.1)
+- 20px padding
+- Border-radius: 8px
+- Left border: 4px solid secondary orange
+- Large orange numbers: 36px
+- White labels: 16px
 
-**Card 1 - Become a Volunteer**
+Content Grid:
+- Max-width: 800px
+- Two equal columns (1fr 1fr)
+- 48px gap
+- Left-aligned text
+
+Ways to Get Involved Section
+
+Heading: Ways to Get Involved
+
+Section Background:
+- Light gray: #f9f9f9
+- 64px vertical padding
+
+Layout:
+- Responsive grid
+- Auto-fit columns
+- Minimum width: 280px
+- 32px gap
+- Max-width: 1200px container
+
+Four Involvement Cards:
+
+Card 1 - Become a Volunteer
+
+Description:
 Join our team of passionate youth volunteers making real change in communities across the Philippines. Whether you have a few hours a week or want to commit to a major project, there's a place for you.
 
 Activities:
@@ -179,9 +335,11 @@ Activities:
 - Peer mentoring and tutoring
 - Environmental initiatives
 
-Button: Apply to Volunteer
+Button: Apply to Volunteer (primary button)
 
-**Card 2 - Partner With Us**
+Card 2 - Partner With Us
+
+Description:
 We collaborate with schools, local governments, NGOs, and businesses to amplify youth-led initiatives. Partner with YoUnity to support the next generation of leaders.
 
 Partnership Types:
@@ -190,9 +348,11 @@ Partnership Types:
 - Community organization collaborations
 - Funding and resource support
 
-Button: Become a Partner
+Button: Become a Partner (secondary button)
 
-**Card 3 - Join a Program**
+Card 3 - Join a Program
+
+Description:
 Develop your leadership skills, learn new competencies, and work on meaningful projects that create real impact in your community.
 
 Programs Include:
@@ -201,9 +361,11 @@ Programs Include:
 - Youth forum participation
 - Project-based learning
 
-Button: Explore Programs
+Button: Explore Programs (primary button)
 
-**Card 4 - Support Our Mission**
+Card 4 - Support Our Mission
+
+Description:
 Your donation helps us provide training, resources, and opportunities for young people to become changemakers in their communities.
 
 Your Support Funds:
@@ -212,159 +374,513 @@ Your Support Funds:
 - Provide learning materials
 - Expand our reach to more communities
 
-Button: Make a Donation
+Button: Make a Donation (secondary button)
+
+Card Styling:
+- White background
+- 32px padding
+- Border-radius: 12px
+- Box shadow: 0 4px 12px rgba(0, 0, 0, 0.08)
+- Top border: 4px solid primary red
+- H3: Primary red, 24px font, 16px bottom margin
+- Disc bullets for lists, 24px left padding
+- 16px list margins, 8px per item
 
 ---
 
 ## FOOTER (Site-wide)
 
-### About Column
-**YoUnity**
+Footer Structure
 
+Background: Dark #1a1a1a
+Text Color: White #fff
+Padding: 48px top/sides, 24px bottom
+Border: Top border on content divider
+
+Four-Column Layout
+
+Grid: 2fr 1fr 1fr 1fr (responsive)
+Gap: 40px between columns
+Max-width: 1200px container
+
+Column 1 - About YoUnity
+
+Heading: YoUnity (secondary orange color)
+
+Description:
 Empowering youth to become leaders, innovators, and changemakers in their communities. Together, we're building a future where every young voice matters.
 
-**Social Media Links:**
+Social Media Links:
 - Facebook
 - Twitter
 - Instagram
+- Display: Horizontal flex, 16px gap
+- Color: Secondary orange
+- Hover: White
 
-### Programs Column
-- Leadership Training (./about.html)
-- Community Outreach (./about.html)
-- Skills Workshops (./about.html)
-- Youth Forum (./community.html)
+Column 2 - Programs
 
-### Get Involved Column
-- Volunteer (./get-involved.html)
-- Partner With Us (./get-involved.html)
-- Donate (./get-involved.html)
-- Events (./community.html)
+Heading: Programs (secondary orange, 18px)
 
-### Get in Touch Column
-**Email:** info@younity.org
-**Phone:** +63 123 456 7890
-**Address:** Batangas, Calabarzon, Philippines
+Links:
+- Leadership Training (about.html)
+- Community Outreach (about.html)
+- Skills Workshops (about.html)
+- Youth Forum (community.html)
 
-### Footer Bottom
-© 2025 YoUnity. All rights reserved. | Privacy Policy | Terms of Service
+Styling:
+- No bullet points
+- 10px bottom margin per item
+- Light gray text: #ccc
+- Hover: Orange
+
+Column 3 - Get Involved
+
+Heading: Get Involved (secondary orange, 18px)
+
+Links:
+- Volunteer (get-involved.html)
+- Partner With Us (get-involved.html)
+- Donate (get-involved.html)
+- Events (community.html)
+
+Styling:
+- No bullet points
+- 10px bottom margin per item
+- Light gray text: #ccc
+- Hover: Orange
+
+Column 4 - Get in Touch
+
+Heading: Get in Touch (secondary orange, 18px)
+
+Contact Information:
+- Email: info@younity.org
+- Phone: +63 123 456 7890
+- Address: Batangas, Calabarzon, Philippines
+
+Styling:
+- Light gray text: #ccc
+- White bold labels
+- 12px top margin per section
+- 8px bottom margin
+- Line-height: 1.6
+
+Footer Bottom
+
+Copyright: © 2025 YoUnity. All rights reserved.
+Links: Privacy Policy | Terms of Service
+
+Styling:
+- Center aligned
+- Gray text: #888
+- 14px font size
+- 24px top padding
+- Separated by border from main footer
 
 ---
 
 ## DESIGN SYSTEM
 
-### Color Palette
-- **Primary Red:** #b00002
-- **Secondary Orange:** #e7822c
-- **White:** #ffffff
-- **Muted Gray:** #444444
-- **Dark Background (About):** #2a1f1f
-- **Light Background (Sections):** #f9f9f9
-- **Footer Dark:** #1a1a1a
+Color Variables
 
-### Button Styles
-**Primary Button:**
+Primary: #b00002 (Crimson Red)
+Secondary: #e7822c (Sunset Orange)
+White: #ffffff
+Muted: #444444 (Dark Gray)
+
+Additional Colors:
+- Dark Background (About): #2a1f1f
+- Light Background (Sections): #f9f9f9
+- Footer Dark: #1a1a1a
+- Light Text: #eee, #ccc
+- Body Text: #333, #555
+- Border/Shadow: rgba(0, 0, 0, 0.06-0.18)
+
+Button Styles
+
+Primary Button:
 - Background: #b00002 (red)
 - Text: white
 - Border: 2px solid #b00002
-- Hover: Lift effect with shadow
+- Padding: 12px 18px
+- Border-radius: 8px
+- Font-weight: 600
+- Hover: translateY(-3px), box-shadow, brightness(0.95)
+- Focus: 3px outline, 3px offset
 
-**Secondary Button:**
+Secondary Button:
 - Background: transparent
 - Text: #e7822c (orange)
 - Border: 2px solid #e7822c
-- Hover: Fills with orange background, white text
+- Padding: 12px 18px
+- Border-radius: 8px
+- Font-weight: 600
+- Hover: translateY(-3px), fills orange, white text
+- Focus: 3px outline, 3px offset
 
-**Action Button (Navigation):**
+Action Button (Navigation):
 - Same as Primary Button
-- Fixed in navigation bar
+- Padding: 8px 14px
+- Border-radius: 6px
+- Transform on hover: translateY(-2px)
+- Box-shadow: 0 8px 22px rgba(0, 0, 0, 0.18)
 
-### Typography
-**Font Family:** "Julius Sans One", sans-serif
+Transition Effects:
+- transform: 140-150ms ease
+- box-shadow: 180ms ease
+- filter: 160ms ease
+- background-color: 160ms ease
+- color: 160ms ease
 
-### Images & Assets
-**Logo:**
+Typography
+
+Primary Font: "Julius Sans One", sans-serif
+
+Heading Sizes:
+- H1: 56px (home hero)
+- H2: 32px (section headings)
+- H3: 20-28px (subsection headings)
+- H4: 18px (footer headings)
+
+Body Text:
+- Lead: 18px
+- Standard: 16px
+- Small: 13-15px
+- Labels: 10px
+
+Line Heights:
+- Body: 1.6
+- Compact: 1.4-1.5
+
+Font Weights:
+- Regular: 400
+- Semibold: 600
+- Bold: 700
+- Extra Bold: 900 (specific headings)
+
+Spacing System
+
+Small: 8-12px
+Medium: 16-24px
+Large: 32-48px
+Extra Large: 64px
+Section Padding: 64px vertical, 20px horizontal
+
+Border Radius
+
+Small: 6px (inputs, small buttons)
+Medium: 8-10px (cards, containers)
+Large: 12px (feature cards, images)
+Circle: 50% (team photos)
+
+Shadows
+
+Light: 0 4px 12px rgba(0, 0, 0, 0.08)
+Medium: 0 6px 18px rgba(0, 0, 0, 0.06)
+Heavy: 0 10px 30px rgba(0, 0, 0, 0.12-0.18)
+Button Hover: 0 8px 22px rgba(0, 0, 0, 0.18)
+
+---
+
+## IMAGES AND ASSETS
+
+Logo
 - Path: ./assets/images/logoPic(noBackground).png
 - Usage: Navigation bar (all pages)
+- Size: 50px height
+- Link: Returns to index.html
 
-**Hero Background:**
+Hero Background
 - Path: ./assets/images/slide1.png
 - Usage: Home page hero section
+- Properties: Cover, center position, with gradient overlay
 
-**About Image:**
-- Path: ./assets/images/slide2.png
+About Image
+- Path: ../assets/images/slide2.png
 - Usage: About page featured image
+- Alt Text: YoUnity participants
 
-**Team Photos:**
+Team Photos (Circular Display)
 - Developer1.jpg - Carryl (Content Designer)
-- Developer2.jpg - John Isaac (FrontEnd Developer)
+- Developer2.jpg - John Isaac (Frontend Developer)
 - Developer3.jpg - Julia (Layout Manager)
+- Display: 140px circles with white borders (responsive sizing)
 
-### Responsive Breakpoints
-**Desktop Only Responsive (1024px and above):**
-- 1024px - 1199px
-- 1200px - 1440px
-- 1441px - 1919px
-- 1920px and above
-
-**Tablet & Mobile:**
-- Static layout (below 1024px)
+Favicon
+- Path: ./assets/images/favicon-32x32.png
+- Type: image/png
+- Size: 32x32px
 
 ---
 
-## PAGE STRUCTURE
+## RESPONSIVE DESIGN
 
-### index.html
-- Navigation
-- Hero section with background image
-- Team showcase (3 developers)
-- Why YoUnity Matters section
-- Footer
+Breakpoints (Desktop Only)
 
-### about.html
-- Navigation
-- About section (dark background)
-- Program cards
-- Statistics
-- Testimonial
-- Featured image
-- Footer
+Note: Design is optimized for desktop screens 1024px and above
 
-### community.html
-- Navigation
-- Community Hub header
-- Youth-Led Projects
-- Community Activities list
-- Youth Voices Forum
-- Topics list
-- Call to action
-- Footer
+1920px and above (XL Desktop):
+- Container: 1600px max-width
+- Hero H1: 64px
+- Circles: 160px
+- Team H2: 32px
+- Team text: 12px
 
-### get-involved.html
-- Navigation
-- Newsletter signup section
-- Impact statistics
-- Ways to Get Involved (4 cards)
-- Footer
+1441px - 1919px (Large Desktop):
+- Container: 1400px max-width
+- Hero H1: 60px
+- Circles: 150px
+- Team H2: 30px
+- Team text: 11px
+
+1200px - 1440px (Standard Desktop):
+- Container: 1200px max-width
+- Hero H1: 50px
+- Circles: 135px
+- Team H2: 26px
+- Team text: 10px
+
+1024px - 1199px (Small Desktop):
+- Hero H1: 42px
+- Circles: 115px
+- Team H2: 22px
+- Team text: 9px
+- About grid: Single column with image first
+
+Below 1024px (Tablet/Mobile):
+- Static layout (no specific responsive styles)
+- Natural content wrapping
+
+Grid Behaviors:
+- Auto-fit columns: Minimum 280px width
+- Gap adjustments: 25-50px based on screen size
+- Content reordering: About page image moves to top on smaller screens
 
 ---
 
-## TECHNICAL NOTES
+## PAGE-SPECIFIC TECHNICAL DETAILS
 
-### Navigation Behavior
-- Fixed position at top
-- Semi-transparent white background with blur
-- Responsive across all desktop sizes
-- Z-index: 1000
+index.html
+- Special Features: Full viewport height hero with background image
+- Overlay: Gradient from red-tinted to dark
+- Margin Offset: -70px top to account for fixed nav
+- Z-index: Content at 100, background at 0, overlay at -1
 
-### Form Handling
-Newsletter form on get-involved.html uses POST method but action="#" (needs backend integration)
+about.html
+- Color Scheme: Dark theme with light text
+- Grid Layout: Two-column on desktop (content | image)
+- Statistics: Horizontal flex with red numbers
+- Cards: Three-column flex with semi-transparent backgrounds
 
-### Links
-All internal navigation uses relative paths (./filename.html)
-External links and form actions are placeholders (#)
+community.html
+- Color Scheme: Light theme with dark text
+- Highlighted Boxes: Forum descriptions with tinted backgrounds
+- Lists: Disc bullets with consistent spacing
+- Structure: Linear vertical flow
 
-### Accessibility
-- Alt text on images
+get-involved.html
+- Two Major Sections:
+  1. Newsletter (red background, white text)
+  2. Involvement Cards (light gray background)
+- Newsletter Grid: Two-column (form | stats)
+- Cards Grid: Four-column responsive auto-fit
+- Extra Top Padding: 134px to clear fixed navigation
+
+---
+
+## NAVIGATION STRUCTURE
+
+File Paths
+
+From Root (index.html):
+- Home: index.html
+- About: pages/about.html
+- Community: pages/community.html
+- Get Involved: pages/get-involved.html
+- Assets: ./assets/images/
+
+From Pages Directory (about.html, community.html, get-involved.html):
+- Home: ../index.html
+- About: about.html
+- Community: community.html
+- Get Involved: get-involved.html
+- Assets: ../assets/images/
+
+Link Status:
+- Internal Navigation: Fully functional with relative paths
+- Language Switchers: Placeholder links (href="")
+- Social Media: Placeholder links (href="#")
+- Form Actions: Placeholder (action="#")
+- Footer Legal: Placeholder links (href="#")
+
+---
+
+## FORM DETAILS
+
+Newsletter Form (get-involved.html)
+
+Method: POST
+Action: # (placeholder - requires backend integration)
+
+Fields:
+1. First Name (type="text", name="first-name", required)
+2. Last Name (type="text", name="last-name", required)
+3. Email (type="email", name="email", required)
+
+Submit Button: "Sign Up" (primary_button class, secondary orange styling)
+
+Validation: HTML5 required attributes
+Accessibility: Placeholder text for all inputs, semantic input types
+
+---
+
+## ACCESSIBILITY FEATURES
+
+Images:
+- All images include alt text
+- Decorative background images use CSS (no alt needed)
+- Logo has descriptive alt: "YoUnity Logo"
+
+Navigation:
+- Semantic nav element
 - ARIA labels on social media links
-- Semantic HTML structure
-- Focus states on interactive elements
+- Focus visible states on all interactive elements
+- Keyboard accessible buttons and links
+
+Forms:
+- Required field indicators
+- Semantic input types (email)
+- Focus states with outline
+- Placeholder text guidance
+
+Structure:
+- Semantic HTML5 elements (nav, main, section, footer)
+- Proper heading hierarchy (h1-h4)
+- List structures with ul/li
+- Article-like content organization
+
+Color Contrast:
+- White text on red background (newsletter section)
+- Dark text on light backgrounds (community, involvement sections)
+- Light text on dark backgrounds (about, footer)
+- Focus outlines for keyboard navigation
+
+---
+
+## TECHNICAL SPECIFICATIONS
+
+External Dependencies
+
+Google Fonts:
+- Julius Sans One
+- Preconnect optimization
+- Display swap strategy
+
+Favicon:
+- 32x32 PNG format
+- Proper MIME type specification
+
+CSS Architecture:
+- Variables: CSS custom properties for colors
+- Box Model: Border-box sizing on all elements
+- Overflow: Hidden on html and body (x-axis)
+- Positioning: Fixed navigation, relative/absolute layering
+
+Performance Considerations:
+- Font preconnect for faster loading
+- Background image optimization
+- Transition timing optimized (140-180ms)
+- Backdrop-filter for navigation blur
+
+Browser Compatibility:
+- Modern CSS Grid and Flexbox
+- CSS Custom Properties
+- Backdrop-filter (may need prefixes)
+- Object-fit for images
+- CSS transforms and transitions
+
+---
+
+## CONTENT TONE AND MESSAGING
+
+Brand Voice:
+- Empowering: "Uniting Youth, Igniting Change"
+- Action-Oriented: "Take Action", "Join", "Get Involved"
+- Youth-Focused: By youth, for youth
+- Community-Driven: Grassroots, collaborative
+- Aspirational: Leaders, innovators, changemakers
+
+Key Phrases:
+- "Youth-led"
+- "Real change"
+- "Meaningful projects"
+- "Lasting impact"
+- "Every young voice matters"
+
+Call-to-Action Language:
+- "Join Our Activities"
+- "Take Action"
+- "Become a Volunteer"
+- "Partner With Us"
+- "Explore Programs"
+- "Make a Donation"
+
+Statistics Format:
+- Use "+" for ranges (1,200+, 450+, 15,000+)
+- Exact numbers for specific counts (85, 28, 12)
+- Descriptive labels ("Youth trained", "Projects launched")
+
+---
+
+## MAINTENANCE NOTES
+
+Placeholder Elements Requiring Integration:
+
+1. Language Switchers: EN, FR, ES links need routing
+2. Social Media: Facebook, Twitter, Instagram URLs needed
+3. Newsletter Form: Backend processing required
+4. Legal Pages: Privacy Policy and Terms of Service
+5. Involvement Buttons: All "Apply", "Become", "Explore", "Donate" links need destinations
+
+Content Updates:
+- Statistics should be updated annually
+- Team showcase may need rotation
+- Testimonials should be refreshed periodically
+- Images should reflect current programs and activities
+
+Future Enhancements:
+
+1. Mobile/Tablet Responsiveness: Below 1024px breakpoints
+2. Language Support: Multi-language implementation
+3. Backend Integration: Form submission, database
+4. CMS Integration: Content management system
+5. Analytics: User behavior tracking
+6. SEO Optimization: Meta tags, structured data
+
+---
+
+## FILE STRUCTURE
+
+project-root/
+├── index.html
+├── styles.css
+├── pages/
+│   ├── about.html
+│   ├── community.html
+│   └── get-involved.html
+└── assets/
+    └── images/
+        ├── logoPic(noBackground).png
+        ├── favicon-32x32.png
+        ├── slide1.png
+        ├── slide2.png
+        ├── Developer1.jpg
+        ├── Developer2.jpg
+        └── Developer3.jpg
+
+---
+
+Document Version: 2.0
+Last Updated: December 2025
+Maintained By: YoUnity Development Team
