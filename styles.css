@@ -198,7 +198,6 @@ nav a:hover {
     margin-top: 8px;
 }
 
-/* New Why Section for Home Page */
 .why-section {
     background: #f9f9f9;
     padding: 64px 20px;
@@ -468,7 +467,6 @@ blockquote.testimonial {
     color: #333;
 }
 
-/* Involvement Section for Get Involved Page */
 .involvement-section {
     background: #f9f9f9;
     padding: 64px 20px;
@@ -726,6 +724,12 @@ footer {
     display: none !important;
 }
 
+/*
+ * Ma'am if you're reading this, For desktop screens lang po ito ma'am hehehe,
+ * para po mas maganda yung layout ng page.
+ * since may overflow po pala ng content sa mas maliit na laptop/desktop screens.
+ * Salamat po!
+ */
 @media (min-width: 1920px) {
     .container {
         max-width: 1600px;
