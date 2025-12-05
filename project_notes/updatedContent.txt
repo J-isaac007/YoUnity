@@ -860,27 +860,6 @@ Future Enhancements:
 
 ---
 
-## FILE STRUCTURE
-
-project-root/
-├── index.html
-├── styles.css
-├── pages/
-│   ├── about.html
-│   ├── community.html
-│   └── get-involved.html
-└── assets/
-    └── images/
-        ├── logoPic(noBackground).png
-        ├── favicon-32x32.png
-        ├── slide1.png
-        ├── slide2.png
-        ├── Developer1.jpg
-        ├── Developer2.jpg
-        └── Developer3.jpg
-
----
-
 Document Version: 2.0
 Last Updated: December 2025
 Maintained By: YoUnity Development Team
